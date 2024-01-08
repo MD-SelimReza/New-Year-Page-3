@@ -1,0 +1,244 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section styles */
+.header{
+    width: 100%;
+    max-width: 1600px;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+}
+.header .container{
+    text-align: right;
+    margin: auto;
+    padding: 200px 140px 90px 750px;
+}
+.header .container .header-title{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.header .container .header-description{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.header .container .btn-primary{
+    color: #005FAC;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 26px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+/* hero section styles */
+.hero{
+    width: 70%;
+    max-width: 1140px;
+    margin: 120px auto;
+}
+.hero .hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 130px;
+}
+.hero .hero-container .img-content img{
+    width: 100%;
+}
+.hero .hero-container .hero-content{
+    max-width: 416px;
+}
+.hero .hero-container .hero-content .hero-content-title{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.hero .hero-container .hero-content .hero-content-description{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.hero .hero-container .hero-content .hero-list{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero .hero-container .hero-content .hero-list .list-item{
+    margin-bottom: 8px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/* my plans section style */
+.my-plans{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto 120px;
+}
+.my-plans .my-plans-heading{
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.my-plans .img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-plans .img-container .img-content{
+    text-align: center;
+}
+.my-plans .img-container .img-content .img-title{
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.my-plans .img-container .img-content .img-description{
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* positive mindset section styles */
+.mindset{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto 120px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../images/watch.png');
+    background-size: cover;
+    border-radius: 8px;
+}
+.mindset .mindset-content{
+    padding: 60px 65px;
+}
+.mindset .mindset-content .mindset-heading{
+    max-width: 450px;
+    text-align: left;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.mindset .mindset-content .btn-primary{
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+}
+
+/* footer section styles */
+.footer{
+    width: 100%;
+    max-width: 1600px;
+    background: #151414;
+}
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 200px;
+    margin: auto;
+}
+.footer .footer-container .future-content .future-content-title{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.footer .footer-container .future-content .future-content-description{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    max-width: 485px;
+}
+.footer .footer-container .future-content .future-content-email{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.footer .footer-container .future-content .future-content-phone{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.footer .footer-container .future-content .social-link img{
+    margin-right: 10px;
+}
+.footer .footer-container .subscriber-content .subscriber-content-heading{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+.footer .footer-container .subscriber-content .email{
+    color: #F3F3F3;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 21px 100px 21px 21px;
+}
+.footer .footer-container .subscriber-content .subscriber-btn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background: #005FAC;
+    padding: 20px 36px;
+}
