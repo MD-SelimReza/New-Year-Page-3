@@ -19,35 +19,35 @@ body{
     max-width: 1600px;
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
+    margin: auto;
 }
 .header .container{
     text-align: right;
-    margin: auto;
-    padding: 200px 140px 90px 750px;
+    padding: 120px 60px 120px 580px;
 }
 .header .container .header-title{
     color: #FFF;
     text-align: right;
     font-family: Work Sans;
-    font-size: 65px;
+    font-size: 48px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .header .container .header-description{
     color: #FFF;
     text-align: right;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 .header .container .btn-primary{
     color: #005FAC;
     text-align: right;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 600;
-    padding: 20px 26px;
+    padding: 12px 26px;
     border: none;
     border-radius: 5px;
     background: #FFF;
@@ -57,38 +57,38 @@ body{
 .hero{
     width: 70%;
     max-width: 1140px;
-    margin: 120px auto;
+    margin: 100px auto;
 }
 .hero .hero-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 130px;
+    gap: 100px;
 }
 .hero .hero-container .img-content img{
     width: 100%;
 }
 .hero .hero-container .hero-content{
-    max-width: 416px;
+    width: 550px;
 }
 .hero .hero-container .hero-content .hero-content-title{
     color: #151414;
     font-family: Work Sans;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .hero .hero-container .hero-content .hero-content-description{
     color: #444343;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 16px;
 }
 .hero .hero-container .hero-content .hero-list{
     color: #444343;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
 }
 .hero .hero-container .hero-content .hero-list .list-item{
@@ -101,15 +101,15 @@ body{
 .my-plans{
     width: 70%;
     max-width: 1140px;
-    margin: 0 auto 120px;
+    margin: 0 auto 100px;
 }
 .my-plans .my-plans-heading{
     color: #151414;
     text-align: center;
     font-family: Work Sans;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .my-plans .img-container{
     display: flex;
@@ -119,20 +119,23 @@ body{
 .my-plans .img-container .img-content{
     text-align: center;
 }
+.my-plans .img-container .img-content img{
+    width: 70px;
+}
 .my-plans .img-container .img-content .img-title{
     color: #151414;
     text-align: center;
     font-family: Work Sans;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 700;
-    margin-top: 24px;
+    margin-top: 20px;
     margin-bottom: 8px;
 }
 .my-plans .img-container .img-content .img-description{
     color: #737272;
     text-align: center;
     font-family: Work Sans;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -140,30 +143,29 @@ body{
 .mindset{
     width: 70%;
     max-width: 1140px;
-    margin: 0 auto 120px;
+    margin: 0 auto 100px;
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../images/watch.png');
     background-size: cover;
     border-radius: 8px;
 }
 .mindset .mindset-content{
-    padding: 60px 65px;
+    padding: 45px;
 }
 .mindset .mindset-content .mindset-heading{
-    max-width: 450px;
     text-align: left;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .mindset .mindset-content .btn-primary{
     color: #005FAC;
     text-align: center;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 600;
-    padding: 20px 36px;
+    padding: 12px 25px;
     border-radius: 5px;
     border: none;
     background: #FFF;
@@ -174,53 +176,60 @@ body{
     width: 100%;
     max-width: 1600px;
     background: #151414;
+    margin: auto;
 }
 .footer .footer-container{
+    width: 75%;
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
-    padding: 120px 200px;
     margin: auto;
+    padding: 100px 0;
+}
+.footer .footer-container .content-area{
+    width: 50%;
 }
 .footer .footer-container .future-content .future-content-title{
     color: #F8F8F8;
     font-family: Work Sans;
-    font-size: 45px;
-    font-style: normal;
+    font-size: 28px;
     font-weight: 700;
-    line-height: normal;
     margin-bottom: 16px;
 }
 .footer .footer-container .future-content .future-content-description{
     color: #FFF;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    margin-bottom: 24px;
-    max-width: 485px;
+    margin-bottom: 20px;
 }
 .footer .footer-container .future-content .future-content-email{
     color: #FFF;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 16px;
 }
 .footer .footer-container .future-content .future-content-phone{
     color: #FFF;
     font-family: Work Sans;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 32px;
 }
 .footer .footer-container .future-content .social-link img{
+    width: 30px;
     margin-right: 10px;
+}
+.footer .footer-container .subscriber-content{
+    padding-left: 100px;
 }
 .footer .footer-container .subscriber-content .subscriber-content-heading{
     color: #FFF;
     font-family: Work Sans;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
-    margin-bottom: 31px;
+    margin-bottom: 25px;
 }
 .footer .footer-container .subscriber-content .email{
     color: #F3F3F3;
@@ -230,15 +239,15 @@ body{
     margin-bottom: 16px;
     border-radius: 8px;
     border: 1px solid #FFF;
-    padding: 21px 100px 21px 21px;
+    padding: 14px;
 }
 .footer .footer-container .subscriber-content .subscriber-btn{
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 8px;
     border: none;
     background: #005FAC;
-    padding: 20px 36px;
+    padding: 14px 28px;
 }
